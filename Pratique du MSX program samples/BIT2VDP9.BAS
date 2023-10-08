@@ -1,0 +1,1 @@
+10 VDP(10)=VDP(10)AND &HFD

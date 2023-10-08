@@ -1,0 +1,4 @@
+10 POKE &HFF8C,&H40	' met dans H.LIST :
+20 POKE &HFF8B,&H9B	' 0FF89h:	POP HL
+30 POKE &HFF8A,&HC3	' 0FF8Ah:	JP	0409Bh
+40 POKE &HFF89,&HE1	' <- remplacer le &HC9 en dernier

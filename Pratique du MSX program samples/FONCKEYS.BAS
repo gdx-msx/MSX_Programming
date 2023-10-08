@@ -1,0 +1,8 @@
+10 AD=&HF87F:CLS
+20 READ A$:IF LEN(A$)>39 THEN PRINT"Impossible!":END
+30 FOR I=1 TO LEN(A$)
+40 I$=MID$(A$,I,1)
+50 POKE AD-1+I,ASC(I$)
+60 NEXT I
+70 POKE AD-1+I,0:END
+100 DATA "C'est un peu long jeune homme ..."
